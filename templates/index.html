@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Learnit</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Select The Option</h1>
+
+  <form method="post" action="/">
+
+        <p><button type="Youtube" class="btn btn-primary btn-block btn-large", value = 'ytlink', name = 'ytlink'>YouTube Video</button></p>
+        <p><button  type="Online" class="btn btn-primary btn-block btn-large", value = 'pdflink', name ='pdflink'>PDF/Research Paper Link</button></p>
+        <button type="Downloaded" accept="application/pdf" class="btn btn-primary btn-block btn-large", value = 'upload', name ='upload'>Upload PDF/Research Paper</button>
+
+    </form>
+
+ </div>
+
+
+</body>
+</html>
